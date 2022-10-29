@@ -1,0 +1,63 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: hsl(212deg, 45%, 89%);
+  font-family: "Outfit", sans-serif;
+  font-size: 1.5rem;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  margin: 3em 1.5em;
+  background-color: hsl(0deg, 0%, 100%);
+  padding: 1em;
+  border-radius: 15px;
+  -webkit-box-shadow: 4px 4px 10px 1px rgba(141, 141, 141, 0.13);
+          box-shadow: 4px 4px 10px 1px rgba(141, 141, 141, 0.13);
+}
+.card .qr-code {
+  width: 100%;
+  border-radius: 15px;
+}
+.card .text-container {
+  margin: 0 1em;
+}
+.card .text-container .bold-text {
+  padding: 1em 0;
+  font-weight: 700;
+}
+.card .text-container .text {
+  color: hsl(0deg, 0%, 58%);
+  padding-bottom: 1.5em;
+}/*# sourceMappingURL=style.css.map */
