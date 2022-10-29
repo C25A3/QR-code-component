@@ -12,6 +12,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+    height: 100vh;
 	background-color: hsl(212, 45%, 89%);
 	font-family: 'Outfit', sans-serif;
 	font-size: 1.5rem;
@@ -48,4 +49,10 @@ body {
 			padding-bottom: 1.5em;
 		}
 	}
+}
+
+@media (min-width: 375px) {
+    .card {
+        max-width: 330px;
+    }
 }

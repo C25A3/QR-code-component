@@ -19,6 +19,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 100vh;
   background-color: hsl(212deg, 45%, 89%);
   font-family: "Outfit", sans-serif;
   font-size: 1.5rem;
@@ -60,4 +61,10 @@ body {
 .card .text-container .text {
   color: hsl(0deg, 0%, 58%);
   padding-bottom: 1.5em;
+}
+
+@media (min-width: 375px) {
+  .card {
+    max-width: 330px;
+  }
 }/*# sourceMappingURL=style.css.map */
